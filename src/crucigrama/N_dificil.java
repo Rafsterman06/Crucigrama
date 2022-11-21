@@ -654,153 +654,156 @@ public class N_dificil extends javax.swing.JFrame {
     public boolean VVariables(){
         //Variables
         boolean valor=false;
-        String[] Variables=new String[9];
+        char[] Variables=new char[9];
         if (V1v1.getText().toUpperCase().equals("V")) {
-            V1v1.enable(false);
-            Variables[0]="V";
+            V1v1.setEnabled(false);
+            Variables[0]='V';
         }
         if (V1a1.getText().toUpperCase().equals("A")) {
-            V1a1.enable(false);
-            Variables[1]="A";
+            V1a1.setEnabled(false);
+            Variables[1]='A';
         }
         if (V1r1.getText().toUpperCase().equals("R")) {
-            V1r1.enable(false);
-            Variables[2]="R";
+            V1r1.setEnabled(false);
+            Variables[2]='R';
         }
         if (V1i1.getText().toUpperCase().equals("I")) {
-            V1i1.enable(false);
-            Variables[3]="I";
+            V1i1.setEnabled(false);
+            Variables[3]='I';
         }
         if (V1a2.getText().toUpperCase().equals("A")) {
-            V1a2.enable(false);
-            Variables[4]="A";
+            V1a2.setEnabled(false);
+            Variables[4]='A';
         }
         if (V1b1.getText().toUpperCase().equals("B")) {
-            V1b1.enable(false);
-            Variables[5]="B";
+            V1b1.setEnabled(false);
+            Variables[5]='B';
         }
         if (V1l1.getText().toUpperCase().equals("L")) {
-            V1l1.enable(false);
-            Variables[6]="L";
+            V1l1.setEnabled(false);
+            Variables[6]='L';
         }
         if (V1e1.getText().toUpperCase().equals("E")) {
-            V1e1.enable(false);
-            Variables[7]="E";
+            V1e1.setEnabled(false);
+            Variables[7]='E';
         }
         if (V1s1.getText().toUpperCase().equals("S")) {
-            V1s1.enable(false);
-            Variables[8]="S";
+            V1s1.setEnabled(false);
+            Variables[8]='S';
         }
-        String vari="VARIABLES";
-        if (Variables.equals(vari.toCharArray())) {
+        
+        if (Variables[0]=='V' && Variables[1]=='A' && Variables[2]=='R' && Variables[3]=='I' && Variables[4]=='A' && Variables[5]=='B' && Variables[6]=='L' && Variables[7]=='E' && Variables[8]=='S') {
             valor=true;
         }
         return valor;
     }
     public boolean VSwicth(){
-        String[] Switch=new String[6];
+        char[] Switch=new char[6];
         boolean valor=false;
         if (V2s1.getText().toUpperCase().equals("S")) {
-            V2s1.enable(false);
-            Switch[0]="S";
+            V2s1.setEnabled(false);
+            Switch[0]='S';
         }
         if (V2w1.getText().toUpperCase().equals("W")) {
-            V2w1.enable(false);
-            Switch[1]="W";
+            V2w1.setEnabled(false);
+            Switch[1]='W';
         }
         if (V2i1.getText().toUpperCase().equals("I")) {
-            V2i1.enable(false);
-            Switch[2]="I";
+            V2i1.setEnabled(false);
+            Switch[2]='I';
         }
         if (V2t1.getText().toUpperCase().equals("T")) {
-            V2t1.enable(false);
-            Switch[3]="T";
+            V2t1.setEnabled(false);
+            Switch[3]='T';
         }
         if (V2c1.getText().toUpperCase().equals("C")) {
-            V2c1.enable(false);
-            Switch[4]="C";
+            V2c1.setEnabled(false);
+            Switch[4]='C';
         }
         if (V2h1.getText().toUpperCase().equals("H")) {
-            V2h1.enable(false);
-            Switch[5]="H";
+            V2h1.setEnabled(false);
+            Switch[5]='H';
         }
-        if (Switch[0].equals("S") && Switch[1].equals("W") && Switch[2].equals("I") && Switch[3].equals("T") && Switch[4].equals("C") && Switch[5].equals("H")) {
+        
+        if (Switch[0]=='S' && Switch[1]=='W' && Switch[2]=='I' && Switch[3]=='T' && Switch[4]=='C' && Switch[5]=='H' ) {
             valor=true;
         }
         return valor;
     }
     public boolean VCiclos(){
         boolean valor=false;
-        String[] Ciclos=new String[6];
+        char[] Ciclos=new char[6];
         if (V3c1.getText().toUpperCase().equals("C")) {
-            V3c1.enable(false);
-            Ciclos[0]="C";
+            V3c1.setEnabled(false);
+            Ciclos[0]='C';
         }
         if (V3i1.getText().toUpperCase().equals("I")) {
-            V3i1.enable(false);
-            Ciclos[1]="I";
+            V3i1.setEnabled(false);
+            Ciclos[1]='I';
         }
         if (V3c2.getText().toUpperCase().equals("C")) {
-            V3c2.enable(false);
-            Ciclos[2]="C";
+            V3c2.setEnabled(false);
+            Ciclos[2]='C';
         }
         if (V3l1.getText().toUpperCase().equals("L")) {
-            V3l1.enable(false);
-            Ciclos[3]="L";
+            V3l1.setEnabled(false);
+            Ciclos[3]='L';
         }
         if (V3o1.getText().toUpperCase().equals("O")) {
-            V3o1.enable(false);
-            Ciclos[4]="O";
+            V3o1.setEnabled(false);
+            Ciclos[4]='O';
         }
         if (V3s1.getText().toUpperCase().equals("S")) {
-            V3s1.enable(false);
-            Ciclos[5]="S";
+            V3s1.setEnabled(false);
+            Ciclos[5]='S';
         }
-        if (Ciclos[0].equals("C") && Ciclos[1].equals("I") && Ciclos[2].equals("C") && Ciclos[3].equals("L") && Ciclos[4].equals("O") && Ciclos[5].equals("S")) {
+        
+        if (Ciclos[0]=='C' && Ciclos[1]=='I' && Ciclos[2]=='C' && Ciclos[3]=='L' && Ciclos[4]=='O' && Ciclos[5]=='S' ) {
             valor=true;
         }
         return valor;
     }
     public boolean VFunciones(){
         boolean valor=false;
-        String[] Funciones=new String[9];
+        char[] Funciones=new char[9];
         if (V4f1.getText().toUpperCase().equals("F")) {
-            V4f1.enable(false);
-            Funciones[0]="F";
+            V4f1.setEnabled(false);
+            Funciones[0]='F';
         }
         if (V4u1.getText().toUpperCase().equals("U")) {
-            V4u1.enable(false);
-            Funciones[1]="U";
+            V4u1.setEnabled(false);
+            Funciones[1]='U';
         }
         if (V4n1.getText().toUpperCase().equals("N")) {
-            V4n1.enable(false);
-            Funciones[2]="N";
+            V4n1.setEnabled(false);
+            Funciones[2]='N';
         }
         if (V4c1.getText().toUpperCase().equals("C")) {
-            V4c1.enable(false);
-            Funciones[3]="C";
+            V4c1.setEnabled(false);
+            Funciones[3]='C';
         }
         if (V4i1.getText().toUpperCase().equals("I")) {
-            V4i1.enable(false);
-            Funciones[4]="I";
+            V4i1.setEnabled(false);
+            Funciones[4]='I';
         }
         if (V4o1.getText().toUpperCase().equals("O")) {
-            V4o1.enable(false);
-            Funciones[5]="O";
+            V4o1.setEnabled(false);
+            Funciones[5]='O';
         }
         if (V4n2.getText().toUpperCase().equals("N")) {
-            V4n2.enable(false);
-            Funciones[6]="N";
+            V4n2.setEnabled(false);
+            Funciones[6]='N';
         }
         if (V4e1.getText().toUpperCase().equals("E")) {
-            V4e1.enable(false);
-            Funciones[7]="E";
+            V4e1.setEnabled(false);
+            Funciones[7]='E';
         }
         if (V4s1.getText().toUpperCase().equals("S")) {
-            V4s1.enable(false);
-            Funciones[8]="S";
+            V4s1.setEnabled(false);
+            Funciones[8]='S';
         }
-        if (Funciones[0].equals("F") && Funciones[1].equals("U") && Funciones[2].equals("N") && Funciones[3].equals("C") && Funciones[4].equals("I") && Funciones[5].equals("O") && Funciones[6].equals("N") && Funciones[7].equals("E") && Funciones[8].equals("S")) {
+        
+        if (Funciones[0]=='F' && Funciones[1]=='U' && Funciones[2]=='N' && Funciones[3]=='C' && Funciones[4]=='I' && Funciones[5]=='O' && Funciones[6]=='N' && Funciones[7]=='E' && Funciones[8]=='S') {
             valor=true;
         }
         
@@ -808,213 +811,218 @@ public class N_dificil extends javax.swing.JFrame {
     }
     public boolean VMetodos(){
         boolean valor=false;
-        String[] Metodos=new String[7];
+        char[] Metodos=new char[7];
         if (V5m1.getText().toUpperCase().equals("M")) {
-            V5m1.enable(false);
-            Metodos[0]="M";
+            V5m1.setEnabled(false);
+            Metodos[0]='M';
         }
         if (V5e1.getText().toUpperCase().equals("E")) {
-            V5e1.enable(false);
-            Metodos[1]="E";
+            V5e1.setEnabled(false);
+            Metodos[1]='E';
         }
         if (V5t1.getText().toUpperCase().equals("T")) {
-            V5t1.enable(false);
-            Metodos[2]="T";
+            V5t1.setEnabled(false);
+            Metodos[2]='T';
         }
         if (V5o1.getText().toUpperCase().equals("O")) {
-            V5o1.enable(false);
-            Metodos[3]="O";
+            V5o1.setEnabled(false);
+            Metodos[3]='O';
         }
         if (V5d1.getText().toUpperCase().equals("D")) {
-            V5d1.enable(false);
-            Metodos[4]="D";
+            V5d1.setEnabled(false);
+            Metodos[4]='D';
         }
         if (V5o2.getText().toUpperCase().equals("O")) {
-            V5o2.enable(false);
-            Metodos[5]="O";
+            V5o2.setEnabled(false);
+            Metodos[5]='O';
         }
         if (V5s1.getText().toUpperCase().equals("S")) {
-            V5s1.enable(false);
-            Metodos[6]="S";
+            V5s1.setEnabled(false);
+            Metodos[6]='S';
         }
-        if (Metodos[0].equals("M") && Metodos[1].equals("E") && Metodos[2].equals("T") && Metodos[3].equals("O") && Metodos[4].equals("D") && Metodos[5].equals("O") && Metodos[6].equals("S")) {
+        
+        if (Metodos[0]=='M' && Metodos[1]=='E' && Metodos[2]=='T' && Metodos[3]=='O' && Metodos[4]=='D' && Metodos[5]=='O' && Metodos[6]=='S') {
             valor=true;
         }
         return valor;
     }
     public boolean HAbstraccion(){
         boolean valor=false;
-        String[] Abstraccion=new String[11];
+        char[] Abstraccion=new char[11];
         if (V1a1.getText().toUpperCase().equals("A")) {
-            V1a1.enable(false);
-            Abstraccion[0]="A";
+            V1a1.setEnabled(false);
+            Abstraccion[0]='A';
         }
         if (H1b1.getText().toUpperCase().equals("B")) {
-            H1b1.enable(false);
-            Abstraccion[1]="B";
+            H1b1.setEnabled(false);
+            Abstraccion[1]='B';
         }
         if (V2s1.getText().toUpperCase().equals("S")) {
-            V2s1.enable(false);
-            Abstraccion[2]="S";
+            V2s1.setEnabled(false);
+            Abstraccion[2]='S';
         }
         if (H1t1.getText().toUpperCase().equals("T")) {
-            H1t1.enable(false);
-            Abstraccion[3]="T";
+            H1t1.setEnabled(false);
+            Abstraccion[3]='T';
         }
         if (H1r1.getText().toUpperCase().equals("R")) {
-            H1r1.enable(false);
-            Abstraccion[4]="R";
+            H1r1.setEnabled(false);
+            Abstraccion[4]='R';
         }
         if (H1a1.getText().toUpperCase().equals("A")) {
-            H1a1.enable(false);
-            Abstraccion[5]="A";
+            H1a1.setEnabled(false);
+            Abstraccion[5]='A';
         }
         if (H1c1.getText().toUpperCase().equals("C")) {
-            H1c1.enable(false);
-            Abstraccion[6]="C";
+            H1c1.setEnabled(false);
+            Abstraccion[6]='C';
         }
         if (H1c2.getText().toUpperCase().equals("C")) {
-            H1c2.enable(false);
-            Abstraccion[7]="C";
+            H1c2.setEnabled(false);
+            Abstraccion[7]='C';
         }
         if (V3i1.getText().toUpperCase().equals("I")) {
-            V3i1.enable(false);
-            Abstraccion[8]="I";
+            V3i1.setEnabled(false);
+            Abstraccion[8]='I';
         }
         if (H1o1.getText().toUpperCase().equals("O")) {
-            H1o1.enable(false);
-            Abstraccion[9]="O";
+            H1o1.setEnabled(false);
+            Abstraccion[9]='O';
         }
         if (H1n1.getText().toUpperCase().equals("N")) {
-            H1n1.enable(false);
-            Abstraccion[10]="N";
+            H1n1.setEnabled(false);
+            Abstraccion[10]='N';
         }
-        if (Abstraccion[0].equals("A") && Abstraccion[1].equals("B") && Abstraccion[2].equals("S") && Abstraccion[3].equals("T") && Abstraccion[4].equals("R") && Abstraccion[5].equals("A") && Abstraccion[6].equals("C") && Abstraccion[7].equals("C") && Abstraccion[8].equals("I") && Abstraccion[9].equals("O") && Abstraccion[10].equals("N")) {
+        
+        if (Abstraccion[0]=='A' && Abstraccion[1]=='B' && Abstraccion[2]=='S' && Abstraccion[3]=='T' && Abstraccion[4]=='R' && Abstraccion[5]=='A' && Abstraccion[6]=='C' && Abstraccion[7]=='C' && Abstraccion[8]=='I' && Abstraccion[9]=='O' && Abstraccion[10]=='N') {
             valor=true;
         }
         return valor;
     }
     public boolean HHerencia(){
         boolean valor=false;
-        String[] Herencia=new String[8];
+        char[] Herencia=new char[8];
         if (V2h1.getText().toUpperCase().equals("H")) {
-            V2h1.enable(false);
-            Herencia[0]="H";
+            V2h1.setEnabled(false);
+            Herencia[0]='H';
         }
         if (H2e1.getText().toUpperCase().equals("E")) {
-            H2e1.enable(false);
-            Herencia[1]="E";
+            H2e1.setEnabled(false);
+            Herencia[1]='E';
         }
         if (H2r1.getText().toUpperCase().equals("R")) {
-            H2r1.enable(false);
-            Herencia[2]="R";
+            H2r1.setEnabled(false);
+            Herencia[2]='R';
         }
         if (H2e2.getText().toUpperCase().equals("E")) {
-            H2e2.enable(false);
-            Herencia[3]="E";
+            H2e2.setEnabled(false);
+            Herencia[3]='E';
         }
         if (H2n1.getText().toUpperCase().equals("N")) {
-            H2n1.enable(false);
-            Herencia[4]="N";
+            H2n1.setEnabled(false);
+            Herencia[4]='N';
         }
         if (H2c1.getText().toUpperCase().equals("C")) {
-            H2c1.enable(false);
-            Herencia[5]="C";
+            H2c1.setEnabled(false);
+            Herencia[5]='C';
         }
         if (H2i1.getText().toUpperCase().equals("I")) {
-            H2i1.enable(false);
-            Herencia[6]="I";
+            H2i1.setEnabled(false);
+            Herencia[6]='I';
         }
         if (H2a1.getText().toUpperCase().equals("A")) {
-            H2a1.enable(false);
-            Herencia[7]="A";
+            H2a1.setEnabled(false);
+            Herencia[7]='A';
         }
-        if (Herencia[0].equals("H") && Herencia[1].equals("E") && Herencia[2].equals("R") && Herencia[3].equals("E") && Herencia[4].equals("N") && Herencia[5].equals("C") && Herencia[6].equals("I") && Herencia[7].equals("A")) {
+        
+        if (Herencia[0]=='H' && Herencia[1]=='E' && Herencia[2]=='R' && Herencia[3]=='E' && Herencia[4]=='N' && Herencia[5]=='C'&& Herencia[6]=='I' && Herencia[7]=='A' ) {
             valor=true;
         }
         return valor;
     }
     public boolean HPolimorfismo(){
         boolean valor=false;
-        String[] Polimorfismoa=new String[12];
+        char[] Polimorfismoa=new char[12];
         if (H3p1.getText().toUpperCase().equals("P")) {
-            H3p1.enable(false);
-            Polimorfismoa[0]="P";
+            H3p1.setEnabled(false);
+            Polimorfismoa[0]='P';
         }
         if (H3o1.getText().toUpperCase().equals("O")) {
-            H3o1.enable(false);
-            Polimorfismoa[1]="O";
+            H3o1.setEnabled(false);
+            Polimorfismoa[1]='O';
         }
         if (V3l1.getText().toUpperCase().equals("L")) {
-            V3l1.enable(false);
-            Polimorfismoa[2]="L";
+            V3l1.setEnabled(false);
+            Polimorfismoa[2]='L';
         }
         if (H3i1.getText().toUpperCase().equals("I")) {
-            H3i1.enable(false);
-            Polimorfismoa[3]="I";
+            H3i1.setEnabled(false);
+            Polimorfismoa[3]='I';
         }
         if (H3m1.getText().toUpperCase().equals("M")) {
-            H3m1.enable(false);
-            Polimorfismoa[4]="M";
+            H3m1.setEnabled(false);
+            Polimorfismoa[4]='M';
         }
         if (H3o2.getText().toUpperCase().equals("O")) {
-            H3o2.enable(false);
-            Polimorfismoa[5]="O";
+            H3o2.setEnabled(false);
+            Polimorfismoa[5]='O';
         }
         if (H3r1.getText().toUpperCase().equals("R")) {
-            H3r1.enable(false);
-            Polimorfismoa[6]="R";
+            H3r1.setEnabled(false);
+            Polimorfismoa[6]='R';
         }
         if (H3f1.getText().toUpperCase().equals("F")) {
-            H3f1.enable(false);
-            Polimorfismoa[7]="F";
+            H3f1.setEnabled(false);
+            Polimorfismoa[7]='F';
         }
         if (V4i1.getText().toUpperCase().equals("I")) {
-            V4i1.enable(false);
-            Polimorfismoa[8]="I";
+            V4i1.setEnabled(false);
+            Polimorfismoa[8]='I';
         }
         if (H3s1.getText().toUpperCase().equals("S")) {
-            H3s1.enable(false);
-            Polimorfismoa[9]="S";
+            H3s1.setEnabled(false);
+            Polimorfismoa[9]='S';
         }
         
         if (H3m2.getText().toUpperCase().equals("M")) {
-            H3m2.enable(false);
-            Polimorfismoa[10]="M";
+            H3m2.setEnabled(false);
+            Polimorfismoa[10]='M';
         }
         if (V5o1.getText().toUpperCase().equals("O")) {
-            V5o1.enable(false);
-            Polimorfismoa[11]="O";
+            V5o1.setEnabled(false);
+            Polimorfismoa[11]='O';
         }
-        if (Polimorfismoa[0].equals("P") && Polimorfismoa[1].equals("O") && Polimorfismoa[2].equals("L") && Polimorfismoa[3].equals("I") && Polimorfismoa[4].equals("M") && Polimorfismoa[5].equals("O") && Polimorfismoa[6].equals("R") && Polimorfismoa[7].equals("F") && Polimorfismoa[8].equals("I") && Polimorfismoa[9].equals("S") && Polimorfismoa[10].equals("M") && Polimorfismoa[11].equals("O")) {
+        
+        if (Polimorfismoa[0]=='P' && Polimorfismoa[1]=='O' && Polimorfismoa[2]=='L' && Polimorfismoa[3]=='I' && Polimorfismoa[4]=='M' && Polimorfismoa[5]=='O' && Polimorfismoa[6]=='R' && Polimorfismoa[7]=='F' && Polimorfismoa[8]=='I' && Polimorfismoa[9]=='S' && Polimorfismoa[10]=='M' && Polimorfismoa[11]=='O' ) {
             valor=true;
         }
         return valor;
     }
     public boolean HClase(){
         boolean valor=false;
-        String[] Clase=new String[5];
+        char[] Clase=new char[5];
         if (V3c1.getText().toUpperCase().equals("C")) {
-            V3c1.enable(false);
-            Clase[0]="C";
+            V3c1.setEnabled(false);
+            Clase[0]='C';
         }
         if (H4l1.getText().toUpperCase().equals("L")) {
-            H4l1.enable(false);
-            Clase[1]="L";
+            H4l1.setEnabled(false);
+            Clase[1]='L';
         }
         if (H4a1.getText().toUpperCase().equals("A")) {
-            H4a1.enable(false);
-            Clase[2]="A";
+            H4a1.setEnabled(false);
+            Clase[2]='A';
         }
         if (H4s1.getText().toUpperCase().equals("S")) {
-            H4s1.enable(false);
-            Clase[3]="S";
+            H4s1.setEnabled(false);
+            Clase[3]='S';
         }
         if (H4e1.getText().toUpperCase().equals("E")) {
-            H4e1.enable(false);
-            Clase[4]="E";
+            H4e1.setEnabled(false);
+            Clase[4]='E';
         }
-        if (Clase[0].equals("C") && Clase[1].equals("L") && Clase[2].equals("A") && Clase[3].equals("S") && Clase[4].equals("E")) {
+        
+        if (Clase[0]=='C' && Clase[1]=='L' && Clase[2]=='A' && Clase[3]=='S' && Clase[4]=='E' ) {
             valor=true;
         }
         return valor;
@@ -1023,8 +1031,18 @@ public class N_dificil extends javax.swing.JFrame {
         // TODO add your handling code here:
         intento++;
         LabelIntentos.setText("INTENTOS "+intento);
-        if (VVariables() && VSwicth() && VCiclos() && VFunciones() && VMetodos() && HAbstraccion() && HHerencia() && HPolimorfismo() && HClase()) {
+        boolean var=VVariables();
+        boolean var2=VSwicth();
+        boolean var3=VCiclos();
+        boolean var4=VFunciones();
+        boolean var5=VMetodos();
+        boolean var6=HAbstraccion();
+        boolean var7=HHerencia();
+        boolean var8=HPolimorfismo();
+        boolean var9=HClase();
+        if (var && var2 && var3 && var4 && var5 && var6 && var7 && var8 && var9) {
             JOptionPane.showMessageDialog(this, "Felicidades lo hiciste en "+intento+" intentos");
+            this.dispose();
         }
         else JOptionPane.showMessageDialog(this, "A donde tan rapido XD");
         

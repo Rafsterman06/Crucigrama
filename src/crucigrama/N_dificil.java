@@ -10,6 +10,7 @@ public class N_dificil extends javax.swing.JFrame {
      */
     public N_dificil() {
         initComponents();
+        funran();
     }
     /**
      * This method is called from within the constructor to initialize the form.
@@ -98,6 +99,7 @@ public class N_dificil extends javax.swing.JFrame {
         jLabel9 = new javax.swing.JLabel();
         jButton1 = new javax.swing.JButton();
         LabelIntentos = new javax.swing.JLabel();
+        LabelLimite = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setLocation(new java.awt.Point(250, 150));
@@ -106,34 +108,42 @@ public class N_dificil extends javax.swing.JFrame {
         V1v1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         V1v1.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
         V1v1.setName("V1v1"); // NOI18N
+        V1v1.setNextFocusableComponent(V1a1);
 
         V1a1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         V1a1.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
         V1a1.setName("V1a1"); // NOI18N
+        V1a1.setNextFocusableComponent(V1r1);
 
         V1r1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         V1r1.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
         V1r1.setName("V1r1"); // NOI18N
+        V1r1.setNextFocusableComponent(V1i1);
 
         V1i1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         V1i1.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
         V1i1.setName("V1i1"); // NOI18N
+        V1i1.setNextFocusableComponent(V1a2);
 
         V1a2.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         V1a2.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
         V1a2.setName("V1a2"); // NOI18N
+        V1a2.setNextFocusableComponent(V1b1);
 
         V1b1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         V1b1.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
         V1b1.setName("V1b1"); // NOI18N
+        V1b1.setNextFocusableComponent(V1l1);
 
         V1l1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         V1l1.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
         V1l1.setName("V1l1"); // NOI18N
+        V1l1.setNextFocusableComponent(V1e1);
 
         V1e1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         V1e1.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
         V1e1.setName("V1e1"); // NOI18N
+        V1e1.setNextFocusableComponent(V1s1);
 
         V1s1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         V1s1.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
@@ -145,6 +155,7 @@ public class N_dificil extends javax.swing.JFrame {
         V2s1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         V2s1.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
         V2s1.setName("V2s1"); // NOI18N
+        V2s1.setNextFocusableComponent(V2w1);
 
         H1t1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         H1t1.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
@@ -164,6 +175,7 @@ public class N_dificil extends javax.swing.JFrame {
         V3i1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         V3i1.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
         V3i1.setName("V3i1"); // NOI18N
+        V3i1.setNextFocusableComponent(V3c2);
 
         H1o1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         H1o1.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
@@ -174,18 +186,22 @@ public class N_dificil extends javax.swing.JFrame {
         V2w1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         V2w1.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
         V2w1.setName("V2w1"); // NOI18N
+        V2w1.setNextFocusableComponent(V2i1);
 
         V2i1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         V2i1.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
         V2i1.setName("V2i1"); // NOI18N
+        V2i1.setNextFocusableComponent(V2t1);
 
         V2t1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         V2t1.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
         V2t1.setName("V2t1"); // NOI18N
+        V2t1.setNextFocusableComponent(V2c1);
 
         V2c1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         V2c1.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
         V2c1.setName("V2c1"); // NOI18N
+        V2c1.setNextFocusableComponent(V2h1);
 
         V2h1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         V2h1.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
@@ -215,18 +231,22 @@ public class N_dificil extends javax.swing.JFrame {
         V3c1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         V3c1.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
         V3c1.setName("V3c1"); // NOI18N
+        V3c1.setNextFocusableComponent(V3i1);
 
         V3c2.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         V3c2.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
         V3c2.setName("V3c2"); // NOI18N
+        V3c2.setNextFocusableComponent(V3l1);
 
         V3l1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         V3l1.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
         V3l1.setName("V3l1"); // NOI18N
+        V3l1.setNextFocusableComponent(V3o1);
 
         V3o1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         V3o1.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
         V3o1.setName("V3o1"); // NOI18N
+        V3o1.setNextFocusableComponent(V3s1);
 
         V3s1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         V3s1.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
@@ -267,6 +287,7 @@ public class N_dificil extends javax.swing.JFrame {
 
         V4i1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         V4i1.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
+        V4i1.setNextFocusableComponent(V4o1);
 
         H3s1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         H3s1.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
@@ -277,33 +298,41 @@ public class N_dificil extends javax.swing.JFrame {
         V5o1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         V5o1.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
         V5o1.setName("V5o1"); // NOI18N
+        V5o1.setNextFocusableComponent(V5d1);
 
         V4u1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         V4u1.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
         V4u1.setName("V4u1"); // NOI18N
+        V4u1.setNextFocusableComponent(V4n1);
 
         V4n1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         V4n1.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
         V4n1.setName("V4n1"); // NOI18N
+        V4n1.setNextFocusableComponent(V4c1);
 
         V4c1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         V4c1.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
         V4c1.setName("V4c1"); // NOI18N
+        V4c1.setNextFocusableComponent(V4i1);
 
         V4f1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         V4f1.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
         V4f1.setName("V4f1"); // NOI18N
+        V4f1.setNextFocusableComponent(V4u1);
 
         V4o1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         V4o1.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
         V4o1.setName("V4o1"); // NOI18N
+        V4o1.setNextFocusableComponent(V4n2);
 
         V4n2.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         V4n2.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
         V4n2.setName("V4n2"); // NOI18N
+        V4n2.setNextFocusableComponent(V4e1);
 
         V4e1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         V4e1.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
+        V4e1.setNextFocusableComponent(V4s1);
 
         V4s1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         V4s1.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
@@ -311,22 +340,27 @@ public class N_dificil extends javax.swing.JFrame {
         V5m1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         V5m1.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
         V5m1.setName("V5m1"); // NOI18N
+        V5m1.setNextFocusableComponent(V5e1);
 
         V5e1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         V5e1.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
         V5e1.setName("V5e1"); // NOI18N
+        V5e1.setNextFocusableComponent(V5t1);
 
         V5t1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         V5t1.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
         V5t1.setName("V5t1"); // NOI18N
+        V5t1.setNextFocusableComponent(V5o1);
 
         V5d1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         V5d1.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
         V5d1.setName("V5d1"); // NOI18N
+        V5d1.setNextFocusableComponent(V5o2);
 
         V5o2.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         V5o2.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
         V5o2.setName("V5s1"); // NOI18N
+        V5o2.setNextFocusableComponent(V5s1);
 
         V5s1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         V5s1.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
@@ -364,6 +398,8 @@ public class N_dificil extends javax.swing.JFrame {
         });
 
         LabelIntentos.setText("INTENTOS 0");
+
+        LabelLimite.setText("LIMITE 0");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -534,7 +570,9 @@ public class N_dificil extends javax.swing.JFrame {
                         .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 190, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(19, 19, 19)
-                        .addComponent(LabelIntentos, javax.swing.GroupLayout.PREFERRED_SIZE, 86, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(LabelIntentos, javax.swing.GroupLayout.PREFERRED_SIZE, 86, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(LabelLimite, javax.swing.GroupLayout.PREFERRED_SIZE, 86, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap())
         );
         layout.setVerticalGroup(
@@ -643,7 +681,9 @@ public class N_dificil extends javax.swing.JFrame {
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(18, 18, 18)
-                        .addComponent(LabelIntentos, javax.swing.GroupLayout.PREFERRED_SIZE, 26, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(LabelIntentos, javax.swing.GroupLayout.PREFERRED_SIZE, 26, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(LabelLimite, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE))))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
@@ -651,6 +691,12 @@ public class N_dificil extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     public int intento=0;
+    public int limite;
+    private void funran(){
+        
+        this.limite=Integer.parseInt(Math.round(Math.random()*10)+"");
+        LabelLimite.setText("LIMITE "+this.limite);
+    }
     public boolean VVariables(){
         //Variables
         boolean valor=false;
@@ -1040,11 +1086,17 @@ public class N_dificil extends javax.swing.JFrame {
         boolean var7=HHerencia();
         boolean var8=HPolimorfismo();
         boolean var9=HClase();
-        if (var && var2 && var3 && var4 && var5 && var6 && var7 && var8 && var9) {
+        if (this.intento<this.limite) {
+            if (var && var2 && var3 && var4 && var5 && var6 && var7 && var8 && var9) {
             JOptionPane.showMessageDialog(this, "Felicidades lo hiciste en "+intento+" intentos");
             this.dispose();
+             }
+            else JOptionPane.showMessageDialog(this, "A donde tan rapido XD");
         }
-        else JOptionPane.showMessageDialog(this, "A donde tan rapido XD");
+        else {
+            JOptionPane.showMessageDialog(this, "Game Over"); 
+            this.dispose();
+        }
         
     }//GEN-LAST:event_jButton1ActionPerformed
 
@@ -1113,6 +1165,7 @@ public class N_dificil extends javax.swing.JFrame {
     private javax.swing.JTextField H4l1;
     private javax.swing.JTextField H4s1;
     private javax.swing.JLabel LabelIntentos;
+    private javax.swing.JLabel LabelLimite;
     private javax.swing.JTextField V1a1;
     private javax.swing.JTextField V1a2;
     private javax.swing.JTextField V1b1;

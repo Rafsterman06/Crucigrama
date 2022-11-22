@@ -231,6 +231,8 @@
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
                       <Component id="LabelIntentos" min="-2" pref="86" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="LabelLimite" min="-2" pref="86" max="-2" attributes="0"/>
                   </Group>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
@@ -355,7 +357,10 @@
                       <EmptySpace max="-2" attributes="0"/>
                       <Component id="jButton1" min="-2" pref="50" max="-2" attributes="0"/>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Component id="LabelIntentos" min="-2" pref="26" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="LabelIntentos" alignment="3" min="-2" pref="26" max="-2" attributes="0"/>
+                          <Component id="LabelLimite" alignment="3" min="-2" pref="32" max="-2" attributes="0"/>
+                      </Group>
                   </Group>
               </Group>
               <EmptySpace max="32767" attributes="0"/>
@@ -371,6 +376,9 @@
           <Color id="Cursor de Texto"/>
         </Property>
         <Property name="name" type="java.lang.String" value="V1v1" noResource="true"/>
+        <Property name="nextFocusableComponent" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+          <ComponentRef name="V1a1"/>
+        </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="V1a1">
@@ -380,6 +388,9 @@
           <Color id="Cursor de Texto"/>
         </Property>
         <Property name="name" type="java.lang.String" value="V1a1" noResource="true"/>
+        <Property name="nextFocusableComponent" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+          <ComponentRef name="V1r1"/>
+        </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="V1r1">
@@ -389,6 +400,9 @@
           <Color id="Cursor de Texto"/>
         </Property>
         <Property name="name" type="java.lang.String" value="V1r1" noResource="true"/>
+        <Property name="nextFocusableComponent" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+          <ComponentRef name="V1i1"/>
+        </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="V1i1">
@@ -398,6 +412,9 @@
           <Color id="Cursor de Texto"/>
         </Property>
         <Property name="name" type="java.lang.String" value="V1i1" noResource="true"/>
+        <Property name="nextFocusableComponent" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+          <ComponentRef name="V1a2"/>
+        </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="V1a2">
@@ -407,6 +424,9 @@
           <Color id="Cursor de Texto"/>
         </Property>
         <Property name="name" type="java.lang.String" value="V1a2" noResource="true"/>
+        <Property name="nextFocusableComponent" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+          <ComponentRef name="V1b1"/>
+        </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="V1b1">
@@ -416,6 +436,9 @@
           <Color id="Cursor de Texto"/>
         </Property>
         <Property name="name" type="java.lang.String" value="V1b1" noResource="true"/>
+        <Property name="nextFocusableComponent" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+          <ComponentRef name="V1l1"/>
+        </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="V1l1">
@@ -425,6 +448,9 @@
           <Color id="Cursor de Texto"/>
         </Property>
         <Property name="name" type="java.lang.String" value="V1l1" noResource="true"/>
+        <Property name="nextFocusableComponent" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+          <ComponentRef name="V1e1"/>
+        </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="V1e1">
@@ -434,6 +460,9 @@
           <Color id="Cursor de Texto"/>
         </Property>
         <Property name="name" type="java.lang.String" value="V1e1" noResource="true"/>
+        <Property name="nextFocusableComponent" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+          <ComponentRef name="V1s1"/>
+        </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="V1s1">
@@ -460,6 +489,9 @@
           <Color id="Cursor de Texto"/>
         </Property>
         <Property name="name" type="java.lang.String" value="V2s1" noResource="true"/>
+        <Property name="nextFocusableComponent" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+          <ComponentRef name="V2w1"/>
+        </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="H1t1">
@@ -509,6 +541,9 @@
           <Color id="Cursor de Texto"/>
         </Property>
         <Property name="name" type="java.lang.String" value="V3i1" noResource="true"/>
+        <Property name="nextFocusableComponent" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+          <ComponentRef name="V3c2"/>
+        </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="H1o1">
@@ -534,6 +569,9 @@
           <Color id="Cursor de Texto"/>
         </Property>
         <Property name="name" type="java.lang.String" value="V2w1" noResource="true"/>
+        <Property name="nextFocusableComponent" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+          <ComponentRef name="V2i1"/>
+        </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="V2i1">
@@ -543,6 +581,9 @@
           <Color id="Cursor de Texto"/>
         </Property>
         <Property name="name" type="java.lang.String" value="V2i1" noResource="true"/>
+        <Property name="nextFocusableComponent" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+          <ComponentRef name="V2t1"/>
+        </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="V2t1">
@@ -552,6 +593,9 @@
           <Color id="Cursor de Texto"/>
         </Property>
         <Property name="name" type="java.lang.String" value="V2t1" noResource="true"/>
+        <Property name="nextFocusableComponent" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+          <ComponentRef name="V2c1"/>
+        </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="V2c1">
@@ -561,6 +605,9 @@
           <Color id="Cursor de Texto"/>
         </Property>
         <Property name="name" type="java.lang.String" value="V2c1" noResource="true"/>
+        <Property name="nextFocusableComponent" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+          <ComponentRef name="V2h1"/>
+        </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="V2h1">
@@ -635,6 +682,9 @@
           <Color id="Cursor de Texto"/>
         </Property>
         <Property name="name" type="java.lang.String" value="V3c1" noResource="true"/>
+        <Property name="nextFocusableComponent" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+          <ComponentRef name="V3i1"/>
+        </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="V3c2">
@@ -644,6 +694,9 @@
           <Color id="Cursor de Texto"/>
         </Property>
         <Property name="name" type="java.lang.String" value="V3c2" noResource="true"/>
+        <Property name="nextFocusableComponent" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+          <ComponentRef name="V3l1"/>
+        </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="V3l1">
@@ -653,6 +706,9 @@
           <Color id="Cursor de Texto"/>
         </Property>
         <Property name="name" type="java.lang.String" value="V3l1" noResource="true"/>
+        <Property name="nextFocusableComponent" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+          <ComponentRef name="V3o1"/>
+        </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="V3o1">
@@ -662,6 +718,9 @@
           <Color id="Cursor de Texto"/>
         </Property>
         <Property name="name" type="java.lang.String" value="V3o1" noResource="true"/>
+        <Property name="nextFocusableComponent" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+          <ComponentRef name="V3s1"/>
+        </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="V3s1">
@@ -767,6 +826,9 @@
         <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
           <Color id="Cursor de Texto"/>
         </Property>
+        <Property name="nextFocusableComponent" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+          <ComponentRef name="V4o1"/>
+        </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="H3s1">
@@ -792,6 +854,9 @@
           <Color id="Cursor de Texto"/>
         </Property>
         <Property name="name" type="java.lang.String" value="V5o1" noResource="true"/>
+        <Property name="nextFocusableComponent" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+          <ComponentRef name="V5d1"/>
+        </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="V4u1">
@@ -801,6 +866,9 @@
           <Color id="Cursor de Texto"/>
         </Property>
         <Property name="name" type="java.lang.String" value="V4u1" noResource="true"/>
+        <Property name="nextFocusableComponent" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+          <ComponentRef name="V4n1"/>
+        </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="V4n1">
@@ -810,6 +878,9 @@
           <Color id="Cursor de Texto"/>
         </Property>
         <Property name="name" type="java.lang.String" value="V4n1" noResource="true"/>
+        <Property name="nextFocusableComponent" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+          <ComponentRef name="V4c1"/>
+        </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="V4c1">
@@ -819,6 +890,9 @@
           <Color id="Cursor de Texto"/>
         </Property>
         <Property name="name" type="java.lang.String" value="V4c1" noResource="true"/>
+        <Property name="nextFocusableComponent" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+          <ComponentRef name="V4i1"/>
+        </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="V4f1">
@@ -828,6 +902,9 @@
           <Color id="Cursor de Texto"/>
         </Property>
         <Property name="name" type="java.lang.String" value="V4f1" noResource="true"/>
+        <Property name="nextFocusableComponent" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+          <ComponentRef name="V4u1"/>
+        </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="V4o1">
@@ -837,6 +914,9 @@
           <Color id="Cursor de Texto"/>
         </Property>
         <Property name="name" type="java.lang.String" value="V4o1" noResource="true"/>
+        <Property name="nextFocusableComponent" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+          <ComponentRef name="V4n2"/>
+        </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="V4n2">
@@ -846,6 +926,9 @@
           <Color id="Cursor de Texto"/>
         </Property>
         <Property name="name" type="java.lang.String" value="V4n2" noResource="true"/>
+        <Property name="nextFocusableComponent" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+          <ComponentRef name="V4e1"/>
+        </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="V4e1">
@@ -853,6 +936,9 @@
         <Property name="horizontalAlignment" type="int" value="0"/>
         <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
           <Color id="Cursor de Texto"/>
+        </Property>
+        <Property name="nextFocusableComponent" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+          <ComponentRef name="V4s1"/>
         </Property>
       </Properties>
     </Component>
@@ -871,6 +957,9 @@
           <Color id="Cursor de Texto"/>
         </Property>
         <Property name="name" type="java.lang.String" value="V5m1" noResource="true"/>
+        <Property name="nextFocusableComponent" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+          <ComponentRef name="V5e1"/>
+        </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="V5e1">
@@ -880,6 +969,9 @@
           <Color id="Cursor de Texto"/>
         </Property>
         <Property name="name" type="java.lang.String" value="V5e1" noResource="true"/>
+        <Property name="nextFocusableComponent" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+          <ComponentRef name="V5t1"/>
+        </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="V5t1">
@@ -889,6 +981,9 @@
           <Color id="Cursor de Texto"/>
         </Property>
         <Property name="name" type="java.lang.String" value="V5t1" noResource="true"/>
+        <Property name="nextFocusableComponent" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+          <ComponentRef name="V5o1"/>
+        </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="V5d1">
@@ -898,6 +993,9 @@
           <Color id="Cursor de Texto"/>
         </Property>
         <Property name="name" type="java.lang.String" value="V5d1" noResource="true"/>
+        <Property name="nextFocusableComponent" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+          <ComponentRef name="V5o2"/>
+        </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="V5o2">
@@ -907,6 +1005,9 @@
           <Color id="Cursor de Texto"/>
         </Property>
         <Property name="name" type="java.lang.String" value="V5s1" noResource="true"/>
+        <Property name="nextFocusableComponent" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+          <ComponentRef name="V5s1"/>
+        </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="V5s1">
@@ -993,6 +1094,11 @@
     <Component class="javax.swing.JLabel" name="LabelIntentos">
       <Properties>
         <Property name="text" type="java.lang.String" value="INTENTOS 0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="LabelLimite">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="LIMITE 0"/>
       </Properties>
     </Component>
   </SubComponents>
